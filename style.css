@@ -30,3 +30,32 @@
     color: firebrick;
     background-color: #d9d9d9;
   }
+  body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(dodgerblue, blue, darkblue);
+    color: #F0E68C;
+    font-family: "Montserrat", sans-serif;
+  }
+  h1{
+    color: white;
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+  .content{
+    margin: 0 20px;
+    text-align: center;
+  }
+  .content h2{
+    color: cadetblue;
+  }
+  .content h3{
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
