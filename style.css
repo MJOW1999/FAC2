@@ -30,6 +30,7 @@
     color: firebrick;
     background-color: #d9d9d9;
   }
+  /*--------------------*/
   body{
     padding: 0;
     margin: 0;
@@ -59,3 +60,9 @@
       -1px 1px 0 #000,
        1px 1px 0 #000;
   }
+  /*--------------------*/
+
+
+  /* Welcome Section */
+  
+  /*--------------------*/
