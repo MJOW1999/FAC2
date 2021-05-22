@@ -1,0 +1,31 @@
+[data-tab-content] {
+    display: none;
+  }
+  .active[data-tab-content]{
+    display: block;
+  }
+  .tabs{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid cornflowerblue;
+    color: midnightblue;
+  }
+  .tabs li{
+    width: 15%;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+  }
+  .tab{
+    cursor: pointer;
+    padding: 10px;
+  }
+  .tab.active{
+    background-color: lightsteelblue;
+  }
+  .tab:hover{
+    color: firebrick;
+    background-color: #d9d9d9;
+  }
