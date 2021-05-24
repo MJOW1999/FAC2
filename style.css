@@ -455,6 +455,9 @@
     #football .flip-card-back img{
       width: 175px;
       height: 175px;
+    }
+    #grid{
+      flex-direction: column;
     } 
   }
 
