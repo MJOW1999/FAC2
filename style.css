@@ -195,6 +195,58 @@
   }
   /*--------------------*/
 
+  /*Why Founders and Coders*/
+  #yfac{
+    margin: 0 10%;
+  }
+  #yfac li{
+    font-family: "Open Sans", sans-serif;
+    list-style-type:square;
+    font-weight: 650;
+  }
+  .section-header{
+    padding: 0.5rem;
+    background-color: lightseagreen;
+    letter-spacing: 0.2em;
+    font-size: large;
+  }
+  .section-header h3{
+    margin: 0;
+    color: navajowhite;
+  }
+  .section-content{
+    padding: .5rem 1rem;
+    color: thistle;
+    font-weight: 500;
+  }
+  #grid{
+    width: 70%;
+    margin: 0 15%;
+    /*Flex styles*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tile{
+    border: 1px outset darkslategrey;
+    margin-bottom: 3em;
+    flex: 0 1 35%; /*  No stretching */
+    margin: 1em;
+  }
+  #course p{
+    color: #d9d9d9;
+  }
+  #community p{
+    color: #cccccc;
+  }
+  #peer-work p{
+    color: #bfbfbf;
+  }
+  #me > .section-header{
+    background-color: #cc7000;
+  }
+  /*--------------------*/
+
   /* Footer and social media links */
   #sm-links{
     border-top: 1px solid blue;
