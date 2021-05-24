@@ -250,6 +250,90 @@
   }
   /*--------------------*/
 
+  /*Projects*/
+  .collapsible {
+    margin: 0 25%;
+    background-color: dodgerblue;
+    color: black;
+    cursor: pointer;
+    padding: 2%;
+    width: 50%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 3em;
+    margin-bottom: .5em;
+    font-family: "Rubik", sans-serif;
+  
+    /*Glossy button */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.6)), color-stop(0.49, rgba(255, 255, 255, 0.3)), color-stop(0.51, rgba(255, 255, 255, 0.0)), to(rgba(255, 255, 255, 0.2)));
+  
+    /* a very subtle drop-shadow that ehances the pressed button effect */
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow:    1px 1px 3px rgba(0, 0, 0, 0.30);
+    box-shadow:         1px 1px 3px rgba(0, 0, 0, 0.30); 
+  }
+  .collapsible:hover, .collapsible.active{
+    background-color: #0059b3;
+  }
+  .proj{
+    padding: .25%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: transparent;
+    margin: 0 25%;
+    width: 50%;
+  }
+  .proj b{
+    color: greenyellow;
+  }
+  .proj b:hover{
+    cursor: pointer;
+    font-size: larger;
+  }
+  .proj li{
+    list-style-type: none;
+  }
+  #surprise{
+    background-color: #16213e;
+    color: white;
+  }
+  #surprise:hover, #surprise.active{
+    background-color: #0f3460;
+  }
+  #m1{
+    text-align: start;
+  }
+  #m2{
+    text-align: center;
+  }
+  #m3{
+    text-align: end;
+  }
+  #m1, #m2, #m3{
+    color: black;
+    text-decoration: none;
+    text-decoration-style:dotted;
+    font-size: 1.2rem;
+  }
+  #m1:hover, #m2:hover, #m3:hover{
+    font-size: larger;
+  }
+  #m1:hover{
+    color: gold;
+  }
+  #m2:hover{
+    color: silver;
+  }
+  #m3:hover{
+    color: #CD7F32; /* bronze */
+  }
+  #hide{
+    display: none;
+  }
+  /*--------------------*/
+
   /*Thank You/ Credits section*/
   #credits{
     margin: 0 20%;
