@@ -456,8 +456,14 @@
       width: 175px;
       height: 175px;
     }
+    /* Why FAC? */
     #grid{
       flex-direction: column;
+    }
+    /* Thank You/Credits */
+    #credits{
+      width: 50%;
+      margin: 0 25%;
     } 
   }
 
