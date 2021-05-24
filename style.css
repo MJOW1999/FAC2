@@ -411,3 +411,51 @@
     background: #0a0a23;
   }
   /*--------------------*/
+
+  /*Media queries 800px*/
+  @media only screen and (max-width: 800px){
+    .tabs li{
+      font-size: smaller;
+    }
+    /* About Me */
+    .content #aboutme{
+      margin: 0 20%;
+    }
+    #image__img{
+      width: 325px;
+      height: 325px;
+    }
+    /* FLIP CARDS */
+    .flex-outline{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 2em;
+      margin: 3em 10%;
+    }
+    .flex-outline > *{
+      flex: 0 1 325px;
+    }
+    .flip-card {
+      background-color: transparent;
+      width: 325px;
+      height: 325px;
+      border: 1px solid silver;
+    }
+    .flip-card-back {
+      background-color: transparent;
+      color: black;
+      transform: rotateY(180deg);
+      width: 80%;
+      font-size: 80%;
+    }
+    #football .flip-card-back{
+      font-size: 70%;
+    }
+    #football .flip-card-back img{
+      width: 175px;
+      height: 175px;
+    } 
+  }
+
+  /*--------------------*/
