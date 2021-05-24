@@ -478,6 +478,13 @@
     }
     #m1,#m2,#m3{
       font-size: initial;
+    }
+    footer{
+      font-size: smaller;
+    }
+    #footer-content{
+      width: 80%;
+      margin: 0 10%;
     } 
   }
 
