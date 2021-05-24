@@ -464,7 +464,34 @@
     #credits{
       width: 50%;
       margin: 0 25%;
+    }
+    /* Projects */
+    .collapsible{
+      font-size: 0.75rem;
+      border-radius: 50%;
+      background-color: lightsteelblue;
+      color: darkblue;
+      margin-top: 3em;
+    }
+    .collapsible:hover, .collapsible.active{
+      background-color: lightblue;
+    }
+    #m1,#m2,#m3{
+      font-size: initial;
     } 
   }
 
-  /*--------------------*/
+  @media only screen and (max-width: 500px){
+    .tabs li{
+      font-size: smaller;
+    }
+    .collapsible{
+      border-radius: 10%;
+      background-color: #ff4d4d;
+      color: cornsilk;  
+    }
+    .collapsible:hover, .collapsible.active{
+      background-color: #ff1a1a;
+    }
+  }
+
