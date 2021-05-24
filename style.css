@@ -199,6 +199,9 @@
   #yfac{
     margin: 0 10%;
   }
+  #yfac h1{
+    margin-bottom: 1em;
+  }
   #yfac li{
     font-family: "Open Sans", sans-serif;
     list-style-type:square;
