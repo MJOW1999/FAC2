@@ -495,6 +495,9 @@
     .tabs li{
       font-size: smaller;
     }
+    .content #aboutme{
+      margin: 0 10%;
+    }
     .collapsible{
       border-radius: 10%;
       background-color: #ff4d4d;
@@ -504,7 +507,7 @@
       background-color: #ff1a1a;
     }
   }
-
+/* 
   @media screen and (max-width: 500px) and (orientation: landscape) {
     html {
       transform: rotate(-90deg);
@@ -515,4 +518,4 @@
       top: 100%;
       left: 0;
     }
-  }
+  } */
