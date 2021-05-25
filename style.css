@@ -498,6 +498,17 @@
     .content #aboutme{
       margin: 0 10%;
     }
+    .content #yfac{
+      text-align: center;
+      width: 60%;
+      margin: 0 20%;
+    }
+    #yfac h1{
+      margin-bottom: 0;
+    }
+    #yfac .subheader{
+      margin: 0;
+    }
     .collapsible{
       border-radius: 10%;
       background-color: #ff4d4d;
@@ -507,15 +518,10 @@
       background-color: #ff1a1a;
     }
   }
-/* 
-  @media screen and (max-width: 500px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
+
+  @media screen and (max-width: 450px){
+    #grid{
+      margin: 0;
     }
-  } */
+    
+  }
