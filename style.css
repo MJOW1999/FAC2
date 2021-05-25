@@ -224,7 +224,6 @@
     font-weight: 500;
   }
   #grid{
-    width: 70%;
     margin: 0 15%;
     /*Flex styles*/
     display: flex;
@@ -422,11 +421,11 @@
     }
     /* About Me */
     .content #aboutme{
-      margin: 0 20%;
+      margin: 0 25%; /**/
     }
-    #image__img{
-      width: 325px;
-      height: 325px;
+    .image__img{
+      max-width: 100%;
+      max-height: 100%;
     }
     /* FLIP CARDS */
     .flex-outline{
@@ -434,7 +433,8 @@
       flex-direction: column;
       flex-wrap: wrap;
       gap: 2em;
-      margin: 3em 10%;
+      margin: 3em 0;
+      overflow: hidden;
     }
     .flex-outline > *{
       flex: 0 1 325px;
@@ -460,13 +460,16 @@
       height: 175px;
     }
     /* Why FAC? */
+    #yfac{
+      margin: 0;
+    }
     #grid{
       flex-direction: column;
     }
     /* Thank You/Credits */
     #credits{
-      width: 50%;
-      margin: 0 25%;
+      margin: 0;
+      width: 100%;
     }
     /* Projects */
     .collapsible{
@@ -496,18 +499,16 @@
       font-size: smaller;
     }
     .content #aboutme{
-      margin: 0 10%;
-    }
-    .content #yfac{
-      text-align: center;
-      width: 60%;
-      margin: 0 20%;
+      margin: 0;
+    } 
+    #grid{
+      margin: 0;
     }
     #yfac h1{
-      margin-bottom: 0;
+      margin-bottom: 0.5em;
     }
     #yfac .subheader{
-      margin: 0;
+      margin-bottom: 0.5em;
     }
     .collapsible{
       border-radius: 10%;
@@ -519,9 +520,3 @@
     }
   }
 
-  @media screen and (max-width: 450px){
-    #grid{
-      margin: 0;
-    }
-    
-  }
