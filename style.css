@@ -421,7 +421,7 @@
     }
     /* About Me */
     .content #aboutme{
-      margin: 0 25%; /**/
+      margin: 0 22.5%; 
     }
     .image__img{
       max-width: 100%;
